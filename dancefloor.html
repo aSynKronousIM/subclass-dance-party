@@ -6,11 +6,33 @@
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/modernDancer.js"></script>
+    <script src="src/breakDancer.js"></script>
+    <script src="src/classyDancer.js"></script>
+    <script src="src/balletDancer.js"></script>
+    <script src="src/bellyDancer.js"></script>
   </head>
   <body>
     <div class="topbar">
       <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
+      <a href="#" class="addDancerButton btn" data-dancer-maker-function-name="BlinkyDancer">add a blinky dancer</a>
+      <a href="#" class="addDancerButton btn" data-dancer-maker-function-name="BreakDancer">add a break dancer</a>
+      <a href="#" class="addDancerButton btn" data-dancer-maker-function-name="BellyDancer">add a belly dancer</a>
+      <a href="#" class="addDancerButton btn" data-dancer-maker-function-name="BalletDancer">add a ballet dancer</a>
+
+
+      <a href="#" class="lineUpBottom btn-left" data-dancer-maker-function-name="">Line Up Bottom</a>
+      <a href="#" class="lineUpLeft btn-left" data-dancer-maker-function-name="">Line Up Left</a>
+      <a href="#" class="revolve btn-left" data-dancer-maker-function-name="">Revolve</a>
+      <a href="#" class="free-dance btn-left" data-dancer-maker-function-name="">Free Dance</a>
+
+
+      </div>
+
     <script src="src/init.js"></script>
+    <audio autoplay="autoplay" controls>
+        <source src="src/music/juan-luis-guerra-ojala-que-llueva-cafe.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
   </body>
 </html>
